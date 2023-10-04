@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0px;
+  border-radius: 50%;
+  padding: 1vh;
+}
+
+button:hover {
+  background-color: rgb(158, 48, 48);
+  color: white;
+}
+
+/* re-usable classes */
+.center {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.reset {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.text-underline {
+  border-bottom: red 1px solid;
+  width: 80%;
+}
+
+.divide-red-short {
+  background-color: red;
+  height: 1px;
+  width: 40%;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.divide-white-short {
+  background-color: white;
+  height: 1px;
+  width: 40%;
+  margin-top: 8vh;
+  margin-bottom: 1vh;
+}
+
+.divide-red {
+  background-color: red;
+  height: 1px;
+  width: 100%;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}
+
+.piece {
+  height: 100vh;
+}
+
+.rows {
+  display: flex;
+  flex-direction: row;
+}
+
+.equal-boxes {
+  flex: 1 1 0;
+}
+
+.space-between {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header-text {
+  font-size: 6em;
+  padding-top: 35vh;
+}
+
+.glow-text {
+  text-shadow: rgb(241, 243, 227) 1px 0 50px;
+}
+
+.intro {
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+
+.intro h2 {
+  font-size: 4em;
+}

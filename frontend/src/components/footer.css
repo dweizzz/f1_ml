@@ -1,0 +1,19 @@
+ .footer {
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+    height: 16vh;
+    color: black;
+    padding: 20px;
+    padding-bottom: 25px;
+}
+
+.footer h1 {
+    font-size: large;
+    width: 100vw;
+    text-align: center;
+    padding-top: 3vh;
+}
+
+.footer p {
+    text-align: center;
+}

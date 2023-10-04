@@ -1,0 +1,109 @@
+.navbar {
+    background-color: rgb(11, 11, 11, 50%);
+}
+
+.home-container {
+    overflow-x: hidden;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    background-color: #141414;
+    color: white;
+}
+
+* {
+    margin: 0;
+}
+
+/* hero image + text stlying */
+.image-container {
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.image-title {
+    color: #fffaf2;
+    font-family: 'Oswald', sans-serif;
+    top: 30vh;
+    font-size: 20vw;
+    text-shadow: rgb(241, 243, 227) 1px 0 50px;
+}
+
+/* about us styling */
+.about-us {
+    width: 80%;
+    padding-top: 20vh;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.left-img {
+    width: 50%;
+}
+
+.left-img img {
+    width: 100%;
+}
+
+.right-text {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 50%;
+}
+
+.right-text h3 {
+    padding-bottom: 2vh;
+}
+
+.right-text h4 {
+    color: rgb(152, 160, 160);
+    padding-top: 3vh;
+}
+
+/* our work styling */
+.our-work {
+    width: 70%;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    margin-top: 5vh;
+}
+
+.our-work h1 {
+    font-weight: bold;
+}
+
+.our-work h4 {
+    color: rgb(152, 160, 160);
+    margin-top: 3vh;
+    letter-spacing: 0.03em;
+}
+
+.blocks .block {
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.new-button {
+    margin-top: 4vh;
+}
+
+/* subteams styling */
+.subteams {
+    width: 80%;
+    padding-top: 20vh;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.subteams h1 {
+    padding-bottom: 2vh;
+}
+
+.subteams .cards {
+    padding: 5vh;
+    background-color: white;
+    color: black;
+    margin-right: 0.35vw;
+}
